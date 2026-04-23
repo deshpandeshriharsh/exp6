@@ -23,7 +23,7 @@ public class App {
 
     public static void main(String args[]) {
         App a = new App(5000);
-        a.deposit(800);
+        a.deposit(700);
         System.out.println("Balance After deposit of 800: " + a.getBalance());
         a.withdraw(400);
         System.out.println("Balance After withdraw of 400: " + a.getBalance());
